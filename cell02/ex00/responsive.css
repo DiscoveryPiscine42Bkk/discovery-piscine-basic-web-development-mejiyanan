@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  word-wrap: break-word;
+  vertical-align: middle;
+}
+
+.left-cell {
+  background-color: #caffc5;
+  width: 50%;
+}
+
+.right-cell {
+  background-color: red;
+  width: 50%;
+}
